@@ -1,0 +1,18 @@
+  ["Information", \ 
+    ["Company", \ 
+      ["Override role settings", \ 
+      "Role ID", \ 
+      "Description", \ 
+      "Classification", \ 
+      "Department", \ 
+      "Default Location", \ 
+      "Schedule Group", \ 
+      "None", \ 
+      "Full time", \ 
+      "Part time" \
+      ], \ 
+    "Qualifications", \ 
+      ["Active only" \
+      ] \
+      ] \
+    ]

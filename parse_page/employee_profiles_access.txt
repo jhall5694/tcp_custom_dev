@@ -1,0 +1,28 @@
+      ["Access", \
+        ["Access", \
+          ["Override role settings", \
+          "Manager" \
+          ], \
+        "Clock Configurations", \
+          ["Override role settings", \
+          "WebClock", \
+          "MobileClock", \
+          "Telephone Clock" \
+          ], \
+        "Mobile Devices", \
+        "Provisioning", \
+          ["Override role settings", \
+          "Clockable", \
+          "862 provisions are in use", \
+          "Non-Clockable", \
+          "0 provisions are in use", \
+          "Advanced Scheduler", \
+          "0 provisions are in use" \
+          ], \
+        "Single Sign On", \
+          ["Override role settings", \
+          "Require SSO for WebClock" \
+          ], \
+        "Multifactor Authentication" \
+        ] \
+      ]

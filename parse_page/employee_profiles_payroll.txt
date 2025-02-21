@@ -1,0 +1,40 @@
+  ["Payroll", \
+    ["Cumulative", \
+      ["to", \
+      "Start date", \
+      "Stop date", \
+      "Period", \
+      "Download" \
+      ], \
+    "Shift Differential", \
+      ["Override role settings", \
+      "Shift schedule", \
+      "Override company settings", \
+      "Include shift differential premium in base rate when calculating overtime" \
+      ], \
+    "Workweek Finalizer", \
+      ["Override role settings", \
+      "Enabled", \
+      "Override company settings", \
+      "Minimum hours", \
+      "Default hours", \
+      "Job Code" \
+      ], \
+    "Benefit Status", \
+      ["Override role settings", \
+      "Measurement period group", \
+      "Break period group", \
+      "Measurement start" \
+      ], \
+    "Split By Percentage", \
+      ["Enabled", \
+      "No records found" \
+      ], \
+    "Pay Progressions", \
+      ["Active only" \
+      ], \
+    "Budgets", \
+      ["Active only" \
+      ] \
+    ] \
+  ]

@@ -1,0 +1,41 @@
+  ["Jobs", \ 
+    ["Job Code", \ 
+      ["Leave", \ 
+      "Active only", \ 
+      "Assignment clears non-role job codes", \ 
+      "Assignment resets role job codes", \ 
+      "Unassignment clears role job codes" \
+      ], \ 
+    "Default", \ 
+      ["Override role settings", \ 
+      "Default pay rate", \ 
+      "0.0000", \ 
+      "Currency format", \ 
+      "Default Job Code", \ 
+      "Never", \ 
+      "Default job code", \ 
+      "Scheduled job code", \ 
+      "Scheduled job code, use default if not scheduled", \ 
+      "Default Cost Code", \ 
+      "Never", \ 
+      "Default cost code", \ 
+      "Scheduled cost code", \ 
+      "Scheduled cost code, use default if not scheduled" \
+      ], \ 
+    "Cost Code Groups", \ 
+      ["Active only", \ 
+      "No records found", \ 
+      "Assignment clears non-role cost code groups", \ 
+      "Assignment resets role cost code groups", \ 
+      "Unassignment clears role cost code groups" \
+      ], \ 
+    "Rate Change History", \ 
+      ["Download", \ 
+      "No records found" \
+      ], \ 
+    "Currency Format Change History", \ 
+      ["Download", \ 
+      "No records found" \
+      ] \
+    ] \
+  ],

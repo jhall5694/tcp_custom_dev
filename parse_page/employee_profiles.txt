@@ -1,0 +1,61 @@
+  ["Information", \ 
+    ["Personal", \ 
+      ["ID", \ 
+      "First name", \ 
+      "Last name", \ 
+      "Address", \ 
+      "City", \ 
+      "State", \ 
+      "Zip", \ 
+      "Gender", \ 
+      "DOB", \ 
+      "SSN", \ 
+      "Language", \ 
+      "Cell", \ 
+      "Phone", \ 
+      "Office Phone", \ 
+      "ext", \ 
+      "Email", \ 
+      "SMS Address" \
+      ], \ 
+    "Company", \ 
+      ["Override role settings", \ 
+      "Role ID", \ 
+      "Description", \ 
+      "Classification", \ 
+      "Department", \ 
+      "Default Location", \ 
+      "Schedule Group", \ 
+      "None", \ 
+      "Full time", \ 
+      "Part time", \ 
+      "Seniority Date", \ 
+      "Hire date", \ 
+      "Export code", \ 
+      "Import ID", \ 
+      "Termination", \ 
+      "Suspended" \
+      ], \ 
+    "Role History", \ 
+    "Other", \ 
+      ["Network ID", \ 
+      "LDAP User Name", \ 
+      "Badge", \ 
+      "PIN Status", \ 
+      "PIN is not set", \ 
+      "New PIN", \ 
+      "Re-Enter PIN", \ 
+      "Password Status", \ 
+      "Password is not blank", \ 
+      "New Password", \ 
+      "Re-Enter Password", \ 
+      "Employee must change password every", \ 
+      "Days", \ 
+      "SubSearch Plus account email", \ 
+      "NA" \
+      ], \ 
+    "Qualifications", \ 
+      ["Active only" \
+      ] \
+      ] \
+    ]

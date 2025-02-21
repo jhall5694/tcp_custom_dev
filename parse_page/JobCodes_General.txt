@@ -1,0 +1,75 @@
+  ["General", \
+    ["Information", \
+      ["Number", \
+      "Description", \
+      "Group", \
+      "Location", \
+      "Geofence Group", \
+      "Job Class", \
+      "Import ID", \
+      "Leave Code", \
+      "Prevent denial of leave requests", \
+      "Supplemental Hours", \
+      "FMLA Code", \
+      "Include in FMLA eligibility", \
+      "Include in Benefit Status", \
+      "Start date", \
+      "Stop date" \
+      ], \
+    "Defaults", \
+      ["Clockable", \
+      "Ask for a cost code", \
+      "Ask for labor codes", \
+      "Distribute segment time across labor codes", \
+      "Apply full segment time to each labor code", \
+      "Auto transfer hours from schedule during close week", \
+      "Auto transfer hours from schedule at scheduled time", \
+      "Process shift differential", \
+      "Do not pay", \
+      "Substitute job code", \
+      "No Overtime 1", \
+      "Counts Overtime 1", \
+      "Earns Overtime 1", \
+      "No Overtime 2", \
+      "Counts Overtime 2", \
+      "Earns Overtime 2", \
+      "Do not force overtime", \
+      "Force overtime 1", \
+      "Force overtime 2", \
+      "No comp time", \
+      "Counts toward comp time", \
+      "Earns comp time", \
+      "Default to normal pay", \
+      "Default to comp time", \
+      "Allow toggling comp time", \
+      "Force comp time", \
+      "Default pay rate", \
+      "Allow time sheet entry", \
+      "Allow Add", \
+      "Flag time-based segments as missed punches", \
+      "Allow Edit", \
+      "Allow Delete" \
+      ], \
+    "Cost Code Groups", \
+      ["No records found" \
+      ], \
+    "Tracked Fields", \
+      ["Display ONS", \
+      "Include in Weighted Overtime", \
+      "Display 47", \
+      "Include in Weighted Overtime", \
+      "Display Track3", \
+      "Include in Weighted Overtime" \
+      ], \
+    "Requests", \
+      ["Override employee settings", \
+      "Require request level 1 approval for requests", \
+      "Require request level 2 approval for requests", \
+      "Require request level 3 approval for requests" \
+      ], \
+    "FMLA", \
+      ["Allow employee to add to leave usage schedule", \
+      "Allow employee to remove from leave usage schedule" \
+      ] \
+    ] \
+  ]

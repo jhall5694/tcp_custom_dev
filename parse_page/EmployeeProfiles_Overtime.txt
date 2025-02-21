@@ -1,0 +1,88 @@
+      "Overtime", \
+        ["Rules", \
+          ["Override role settings", \
+          "Employee also earns a salaried amount of", \
+          "per year", \
+          "Ignore regular hours for this employee", \
+          "Overtime #1 after", \
+          "hours:minutes per week", \
+          "Overtime #2 after", \
+          "hours:minutes per week", \
+          "Overtime 1", \
+          "Overtime 2" \
+          ], \
+        "Advanced", \
+          ["Override role settings", \
+          "No special action for these days", \
+          "Override overtime settings for these days", \
+          "Overtime #1 after", \
+          "hours in the day", \
+          "Overtime #2 after", \
+          "hours in the day", \
+          "Pay a shift premium of", \
+          "dollars per hour", \
+          "Must have worked at least", \
+          "counted hours in overtime period", \
+          "No special action for these days", \
+          "Override overtime settings for these days", \
+          "Overtime #1 after", \
+          "hours in the day", \
+          "Overtime #2 after", \
+          "hours in the day", \
+          "Pay a shift premium of", \
+          "dollars per hour", \
+          "Must have worked at least", \
+          "counted hours in overtime period", \
+          "No special action for these days", \
+          "Override overtime settings for these days", \
+          "Overtime #1 after", \
+          "hours in the day", \
+          "Overtime #2 after", \
+          "hours in the day", \
+          "Pay a shift premium of", \
+          "dollars per hour", \
+          "Must have worked at least", \
+          "counted hours in overtime period" \
+          ], \
+        "Comp Time", \
+          ["Override role settings", \
+          "No comp time", \
+          "Comp time at overtime", \
+          "Comp time after", \
+          "per day", \
+          "per period", \
+          "Comp time at daily contracted hours", \
+          "Comp time at overtime period contracted hours" \
+          ], \
+        "Contracts First", \
+        "Paid Break Limit", \
+          ["Override company settings", \
+          "Group 1", \
+          "Group 2", \
+          "Group 3", \
+          "Group 4", \
+          "No records found", \
+          "break_15_min", \
+          "Lunch_30_min", \
+          "break_30_min", \
+          "break_15_min", \
+          "Break5" \
+          ], \
+        "Weighted Overtime", \
+          ["Override company settings", \
+          "Weighted Base Rate: All WagesAll Hours OTRate=RegRate x Factor", \
+          "Weighted Overtime Rate: RegRate=No Change OTRate=RegRate+(Weighted Factor)", \
+          "Weighted Overtime Rate: RegRate=No Change OTRate=Weighted Base x Factor", \
+          "Redistribute overtime hours to each job code worked", \
+          "For base rate calculation wages are determined by calculating the sum of all unique regular rates times the number of hours worked in that rate", \
+          "Calculate on a weekly basis even if employee is bi-weekly or quad-weekly", \
+          "Process calculations when exporting data", \
+          "Process calculations when generating reports", \
+          "Include rate of pay when determining job code groups for redistribution of hours", \
+          "Distribute overtime for shift segments that are forced to overtime", \
+          "Distribute overtime to shift segments that do not earn overtime", \
+          "Distribute overtime to end of distribution period first", \
+          "Round weighted rate up to the nearest cent" \
+          ] \
+        ], \
+    

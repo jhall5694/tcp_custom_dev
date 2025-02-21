@@ -1,0 +1,36 @@
+  ["Jobs", \ 
+    ["Work Profile", \ 
+      ["Active only" \
+      ], \ 
+    "Job Code", \ 
+      ["Leave", \ 
+      "Non-Clockable", \ 
+      "Active only" \
+      ], \ 
+    "Default", \ 
+      ["Override role settings", \ 
+      "Default pay rate", \ 
+      "0.0000", \ 
+      "Currency format", \ 
+      "Default Job Code", \ 
+      "Never", \ 
+      "Default job code", \ 
+      "Scheduled job code", \ 
+      "Scheduled job code, use default if not scheduled", \ 
+      "Default Cost Code", \ 
+      "Never", \ 
+      "Default cost code", \ 
+      "Scheduled cost code", \ 
+      "Scheduled cost code, use default if not scheduled" \
+      ], \ 
+    "Cost Code Groups", \ 
+      ["Active only", \ 
+      "No records found" \
+      ], \ 
+    "Rate Change History", \ 
+    "Currency Format Change History", \ 
+      ["Download", \ 
+      "No records found" \
+      ] \
+    ] \
+  ]

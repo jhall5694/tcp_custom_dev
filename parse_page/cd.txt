@@ -1,0 +1,372 @@
+  ["Global", \ 
+    ["Display Options", \ 
+      ["Display Name", \ 
+      "Company Name", \ 
+      "Roster", \ 
+      "Leave segment background color", \ 
+      "Leave segment text color", \ 
+      "Leave segment border color", \ 
+      "Non shift segment background color", \ 
+      "Non shift segment text color", \ 
+      "Non shift segment border color", \ 
+      "Tracked Fields", \ 
+      "Enable tracked fields", \ 
+      "Tracked field 1 name", \ 
+      "Include in Weighted Overtime", \ 
+      "Tracked field 2 name", \ 
+      "Include in Weighted Overtime", \ 
+      "Tracked field 3 name", \ 
+      "Include in Weighted Overtime", \ 
+      "Display Formats", \ 
+      "Time format", \ 
+      "Date format", \ 
+      "Hour format", \ 
+      "Precision", \ 
+      "Accruals Format", \ 
+      "Precision", \ 
+      "Rate precision", \ 
+      "Currency format" \
+      ], \ 
+    "Calculations", \ 
+      ["Calculate hours counting toward overtime but not earning overtime first", \ 
+      "Calculate hours counting toward comp time but not earning comp time first", \ 
+      "Calculate contract hours counting towards overtime first", \ 
+      "Include shift differential premium in base rate when calculating overtime", \ 
+      "Reset forced overtime flags when processing shift differential", \ 
+      "Flag time sheet segments as conflict when start time is the same as a worked segment", \ 
+      "Calculate contract hours in order of hour type", \ 
+      "Track straight overtime", \ 
+      "How do forced overtime segments count toward overtime", \ 
+      "How do forced comp time segments count toward comp time", \ 
+      "How many hours constitute a day worked", \ 
+      "Include non-clockable hours", \ 
+      "Maximum length of a worked segment", \ 
+      "Also restrict time sheets", \ 
+      "Current week", \ 
+      "Bi-weekly base date", \ 
+      "Quad weekly base date", \ 
+      "Pay period" \
+      ], \ 
+    "Breaks", \ 
+      ["Break type", \ 
+      "A long break is longer than", \ 
+      "A short break is shorter than", \ 
+      "Round breaks to nearest", \ 
+      "Round first 0 minutes up at", \ 
+      "Round other 0 minutes up at", \ 
+      "Break type", \ 
+      "A long break is longer than", \ 
+      "A short break is shorter than", \ 
+      "Round breaks to nearest", \ 
+      "Round first 0 minutes up at", \ 
+      "Round other 0 minutes up at", \ 
+      "Break type", \ 
+      "A long break is longer than", \ 
+      "A short break is shorter than", \ 
+      "Round breaks to nearest", \ 
+      "Round first 0 minutes up at", \ 
+      "Round other 0 minutes up at", \ 
+      "Break type", \ 
+      "A long break is longer than", \ 
+      "A short break is shorter than", \ 
+      "Round breaks to nearest", \ 
+      "Round first 0 minutes up at", \ 
+      "Round other 0 minutes up at", \ 
+      "Break type", \ 
+      "A long break is longer than", \ 
+      "A short break is shorter than", \ 
+      "Round breaks to nearest", \ 
+      "Round first 0 minutes up at", \ 
+      "Round other 0 minutes up at", \ 
+      "Maximum number of minutes between segments that is still considered a break", \ 
+      "(1 - 240)", \ 
+      "Time of day based", \ 
+      "Length-based" \
+      ], \ 
+    "Paid Break Limit", \ 
+      ["Group 1", \ 
+      "Group 2", \ 
+      "Group 3", \ 
+      "Group 4", \ 
+      "No records found", \ 
+      "Lunch", \ 
+      "Lunch", \ 
+      "Break3", \ 
+      "Breakfive", \ 
+      "Break5" \
+      ], \ 
+    "Cost Codes", \ 
+      ["Status 1", \ 
+      "Status 2", \ 
+      "Status 3", \ 
+      "Status 4", \ 
+      "Status 5", \ 
+      "Status 6", \ 
+      "Status 7", \ 
+      "Status 8", \ 
+      "Status 9", \ 
+      "Status 10", \ 
+      "User defined field 1", \ 
+      "User defined field 2", \ 
+      "User defined field 3", \ 
+      "User defined field 4", \ 
+      "Level 1", \ 
+      "Level 2", \ 
+      "Level 3", \ 
+      "Level 4", \ 
+      "Level 5", \ 
+      "Intersection (cost codes must be in all groups)", \ 
+      "Union (cost codes can be in any group)" \
+      ], \ 
+    "Password Policy", \ 
+      ["System Access", \ 
+      "WebClock Override", \ 
+      "Clock Edit Hours", \ 
+      "Clock Override", \ 
+      "Employee Password", \ 
+      "No records found", \ 
+      "Allow users to self reset password via email.", \ 
+      "Employees must change password after manual update" \
+      ], \ 
+    "Login Attempts", \ 
+      ["Prevent multiple unsuccessful login attempts", \ 
+      "consecutive unsuccessful attempts within", \ 
+      "minutes will lock the user for", \ 
+      "Email when login attempts are exceeded" \
+      ], \ 
+    "Logout", \ 
+      ["Employee URL", \ 
+      "User URL" \
+      ], \ 
+    "Time Settings", \ 
+      ["Time zone", \ 
+      "Automatically adjust hours for daylight savings", \ 
+      "Time Offset", \ 
+      "Display scheduled time on calendar day" \
+      ], \ 
+    "Mail Settings", \ 
+      ["SMTP server", \ 
+      "SMTP port number", \ 
+      "Reply to address", \ 
+      "Have all system generated emails come from the “Reply to address"", \ 
+      "Enable encryption (TLS)", \ 
+      "Outbound server requires authentication", \ 
+      "User name", \ 
+      "Update password (Password is not blank)", \ 
+      "Password", \ 
+      "Re-enter password", \ 
+      "Test email address" \
+      ], \ 
+    "Contracts First", \ 
+    "Daily Overtime Exemption", \ 
+      ["Disable daily overtime on segments that meet or exceed the exemption threshold", \ 
+      "Disable daily overtime on shifts that meet or exceed the exemption threshold", \ 
+      "Exemption threshold", \ 
+      "Exclude segments that are forced to overtime 1", \ 
+      "Exclude segments that are forced to overtime 2", \ 
+      "Exclude segments with 6th consecutive day overtime", \ 
+      "Exclude segments with 7th consecutive day overtime", \ 
+      "Exclude holiday hours" \
+      ], \ 
+    "Floating Pay Period", \ 
+      ["Period base date", \ 
+      "Period length", \ 
+      "days" \
+      ], \ 
+    "Forced Overtime", \ 
+      ["Sunday", \ 
+      "Forced overtime starts at", \ 
+      "Monday", \ 
+      "Forced overtime starts at", \ 
+      "Tuesday", \ 
+      "Forced overtime starts at", \ 
+      "Wednesday", \ 
+      "Forced overtime starts at", \ 
+      "Thursday", \ 
+      "Forced overtime starts at", \ 
+      "Friday", \ 
+      "Forced overtime starts at", \ 
+      "Saturday", \ 
+      "Forced overtime starts at", \ 
+      "Override calculations for days that are marked as a holiday", \ 
+      "Override calculation for days that are calculated as 6th consecutive day overtime", \ 
+      "Override calculation for days that are calculated as 7th consecutive day overtime", \ 
+      "Include segments that are configured to not earn overtime" \
+      ], \ 
+    "Include Overtime In Regular Hours", \ 
+      ["Process when reporting", \ 
+      "Process when exporting" \
+      ], \ 
+    "Salaried Non-Exempt", \ 
+      ["Round rates to company specified precision after calculation" \
+      ], \ 
+    "Weighted Overtime", \ 
+      ["Weighted Base Rate: All WagesAll Hours OTRate=RegRate x Factor", \ 
+      "Weighted Overtime Rate: RegRate=No Change OTRate=RegRate+(Weighted Factor)", \ 
+      "Weighted Overtime Rate: RegRate=No Change OTRate=Weighted Base x Factor", \ 
+      "Redistribute overtime hours to each job code worked", \ 
+      "For base rate calculation wages are determined by calculating the sum of all unique regular rates times the number of hours worked in that rate", \ 
+      "Calculate on a weekly basis even if employee is bi-weekly or quad-weekly", \ 
+      "Process calculations when exporting data", \ 
+      "Process calculations when generating reports", \ 
+      "Include rate of pay when determining job code groups for redistribution of hours", \ 
+      "Distribute overtime for shift segments that are forced to overtime", \ 
+      "Distribute overtime to shift segments that do not earn overtime", \ 
+      "Distribute overtime to end of distribution period first", \ 
+      "Round weighted rate up to the nearest cent" \
+      ], \ 
+    "Workweek Finalizer", \ 
+      ["Enable workweek finalizer", \ 
+      "Minimum hours", \ 
+      "Default hours", \ 
+      "Include leave in minimum calculation", \ 
+      "Job Code", \ 
+      "Leave Group", \ 
+      "Process employees even if they have no hours", \ 
+      "Process weeks if they result in negative accruals", \ 
+      "Process all completed open weeks up to 8 weeks.", \ 
+      "Exclude terminated and suspended employees", \ 
+      "Add time sheet hours at the last minute of the week", \ 
+      "Add time sheet hours after the end of the last segment worked", \ 
+      "Send an email upon completion of processing", \ 
+      "Send an email even if no changes are made" \
+      ], \ 
+    "Segment Post Processor (STA)", \ 
+      ["Segment minimum" \
+      ], \ 
+    "Missed Break", \ 
+      ["Process Shift", \ 
+      "Up to previous day", \ 
+      "Up to current day", \ 
+      "minutes without break", \ 
+      "cumulative break threshold", \ 
+      "Count Minutes", \ 
+      "All segments up to first disabled job code or break", \ 
+      "First segment only", \ 
+      "Segment Placement", \ 
+      "First minute of shift", \ 
+      "Last minute of shift", \ 
+      "First minute of day", \ 
+      "Last minute of day", \ 
+      "Job Code", \ 
+      "Time", \ 
+      "Use segment cost code" \
+      ], \ 
+    "Split Segment Automation", \ 
+    "Split To Schedule", \ 
+      ["Send an email upon completion of processing" \
+      ], \ 
+    "Split By Percentage", \ 
+      ["Apply automatic breaks before split", \ 
+      "Only process segments with other approval", \ 
+      "Send an email upon completion of processing", \ 
+      "Only notify of failures" \
+      ], \ 
+    "Banner Integration Automation", \ 
+    "PrismHR", \ 
+      ["Employee authentication URL", \ 
+      "User authentication URL", \ 
+      "Url", \ 
+      "Client ID", \ 
+      "PEO ID", \ 
+      "User ID", \ 
+      "Username", \ 
+      "Use accrual subscriptions", \ 
+      "Update password (Password is blank)", \ 
+      "Password", \ 
+      "Re-enter password", \ 
+      "Sync employee work email instead of personal email" \
+      ], \ 
+    "Incident Report", \ 
+      ["Reporting period", \ 
+      "Period", \ 
+      "Period start offset", \ 
+      "days", \ 
+      "Period stop offset", \ 
+      "days", \ 
+      "Accrual Bank" \
+      ], \ 
+    "Supplemental Hours", \ 
+      ["Select job code", \ 
+      "Add additional time before first shift of the day", \ 
+      "Add additional time after last shift of the day (Not recommended for 24 hour companies)", \ 
+      "Add additional time at", \ 
+      "Ranges", \ 
+      "No records found" \
+      ], \ 
+    "Shift Differential Minimum", \ 
+      ["Minimum required to get premiums", \ 
+      "Last shift grace period", \ 
+      "Ignore individuals that do not have shift differential enabled" \
+      ], \ 
+    "Segment Rounding Automation", \ 
+      ["Send an email upon completion of processing", \ 
+      "Only notify of failures", \ 
+      "Include Current Day", \ 
+      "Round missed punches", \ 
+      "Save original punch time in actual times", \ 
+      "Round up at minutes", \ 
+      "Round to minutes" \
+      ], \ 
+    "Start Time Shift Adjustment Processing", \ 
+      ["Percentage" \
+      ], \ 
+    "Automated Segment Entry - Long Break Fill", \ 
+    "Automated Segment Entry - Clock In Fill", \ 
+      ["Window Start", \ 
+      "Window Stop", \ 
+      "Job Code" \
+      ], \ 
+    "Namely", \ 
+      ["Employee authentication URL", \ 
+      "User authentication URL", \ 
+      "Client ID", \ 
+      "Client Secret" \
+      ], \ 
+    "Spread of Hours", \ 
+      ["Hour threshold", \ 
+      "Additional time", \ 
+      "Job Code", \ 
+      "At the start of the first shift of the day", \ 
+      "At the end of the last shift of the day", \ 
+      "At a specific time during the day" \
+      ], \ 
+    "West Park Automation", \ 
+    "Occurrence Processing", \ 
+    "Variable Leave Segment Processing", \ 
+      ["Both add and remove leave", \ 
+      "Add leave", \ 
+      "Remove leave" \
+      ], \ 
+    "Persisted Calculations Automation", \ 
+    "Server URL Settings", \ 
+      ["External server URL" \
+      ], \ 
+    "Cost Code Expiration Automation", \ 
+      ["Reactivate inactive cost codes with future expiration date" \
+      ], \ 
+    "Manager Segment Approval Automation", \ 
+      ["Require employee approval and no changes to segment within the last", \ 
+      "Require segments to be exactly", \ 
+      "hours in length", \ 
+      "Exclude Time Sheets", \ 
+      "Require segments to be non leave job codes", \ 
+      "User for approvals:" \
+      ], \ 
+    "Threshold Based Job Code Adjustment Automation", \ 
+      ["Hour threshold" \
+      ], \ 
+    "Split Hours Over Contract Automation", \ 
+    "Salaried Exempt Automation", \ 
+    "SubSearch Plus App", \ 
+    "eFileCabinet", \ 
+      ["Username", \ 
+      "Update password (Password is blank)", \ 
+      "Password", \ 
+      "Re-enter password" \
+      ], \ 
+    "Biometric Notice", \ 
+      ["Enable biometric notice" \
+      ] \
+      ] \
+    ]

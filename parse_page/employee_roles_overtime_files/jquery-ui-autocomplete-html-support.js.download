@@ -1,0 +1,70 @@
+/*
+ * jQuery UI Autocomplete HTML Extension
+ *
+ * Copyright 2010, Scott González (http://scottgonzalez.com)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * http://github.com/scottgonzalez/jquery-ui-extensions
+ */
+(function( $ ) {
+
+var proto = $.ui.autocomplete.prototype,
+	initSource = proto._initSource;
+
+function filter( array, term ) {
+	var matcher = new RegExp( $.ui.autocomplete.escapeRegex(term), "i" );
+	return $.grep( array, function(value) {
+		return matcher.test( $( "<div>" ).html( value.label || value.value || value ).text() );
+	});
+}
+
+$.extend( proto, {
+	_initSource: function() {
+		if ( this.options.html && $.isArray(this.options.source) ) {
+			this.source = function( request, response ) {
+				response( filter( this.options.source, request.term ) );
+			};
+		} else {
+			initSource.call( this );
+		}
+	},
+	
+	_renderItem: function( ul, item) {
+		return $( "<li></li>" )
+			.data( "item.autocomplete", item )
+			.append( $( "<a></a>" )[ this.options.html ? "html" : "text" ]( item.label ) )
+			.appendTo( ul );
+	},
+	
+	/*
+	 * This adds categories to autocomplete.
+	 * 
+	 * Slightly modified from:
+	 * http://jqueryui.com/autocomplete/#categories
+	 */
+	_renderMenu: function (ul, items) {
+		var that = this;
+		var currentCategory = "";
+		$.each(items, function (index, item) {
+			if (item.category !== currentCategory && !isNullOrEmpty(item.category)) {
+				ul.append("<li class='ui-autocomplete-category'>" + item.category + "</li>");
+				currentCategory = item.category;
+			}
+			that._renderItemData(ul, item);
+		});
+	},
+	
+	_resizeMenu: function() {
+		var ul = this.menu.element;
+		ul.outerWidth( Math.max(
+			// Firefox wraps long text (possibly a rounding bug)
+			// so we add 1px to avoid the wrapping (#7513)
+			// EBS - Added 20px to fix overflow issue.
+			ul.width( "" ).outerWidth() + 1 + 15,
+			this.element.outerWidth()
+		) );
+	}
+});
+
+})( jQuery );
+
