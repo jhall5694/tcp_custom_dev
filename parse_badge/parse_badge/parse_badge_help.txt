@@ -1,0 +1,49 @@
+utility name : parse_badge
+creator : Jason Hall - TCP Tier 1 Support Technician 325.320.1696
+purpose : Useful utility for testing badge parsing
+
+background : The parse_badge utility was created initially to help train technicians on the inner workings of badge parsing.
+The utility was then modified to add the ability to generate valid parsing rules given raw badge binary and desired decimal 
+
+usage : 
+  a) basic binary to decimal conversion (no parsing rules)
+    1) Fill out either the "full binary" or "binary short form entry" fields
+	2) Press the appropriate button "use binary short fields" or "use full binary field" 
+	3) Press the "binary to decimal" button
+	4) The resulting decimal value is displayed in the "full decimal" field
+	
+  b) binary to decimal using the "parse then translate" method
+    1) Fill out either the "full binary" or "binary short form entry" fields
+	2) Press the appropriate button "use binary short fields" or "use full binary field" 
+	3) Fill out the "parse start position", and "parse length" fields as desired (not required)
+	4) Press the "parse then translate" button
+	5) Press the "binary to decimal" button
+	6) The resulting decimal value is displayed in the "full decimal" field
+	
+  c) binary to decimal using the "translate then parse" method
+    1) Fill out either the "full binary" or "binary short form entry" fields
+	2) Press the appropriate button "use binary short fields" or "use full binary field" 
+	3) Fill out the "parse start position", and "parse length" fields as desired (not required)
+	4) Press the "translate then parse" button
+	5) Press the "binary to decimal" button
+	6) The resulting full decimal value is displayed in the "full decimal" field	
+	7) The parsed (final) decimal value is displayed in the "partial decimal" field
+	
+  d) basic decimal to binary (no parsing rules)
+    1) Fill out the "full decimal" field
+	2) Press the "decimal to binary" button
+	3) The resulting binary value is displayed in the "full binary" field
+	
+  d) decimal to binary using the "parse then translate" method
+    1) Fill out the "full decimal" field
+	2) Fill out the "parse start position", "parse length", and "total binary bit length" fields as desired (not required)	
+	3) Press the "parse then translate" button
+	4) Press the "decimal to binary" button
+	5) The resulting binary value is displayed in the "full binary" field
+
+  e) generate parsing rules
+    1) Fill out either the "full binary" or "binary short form entry" fields
+	2) Fill out the "desired decimal" field
+	3) Press the "generate parsing rules" button
+	4) The parsing rules that resolve to the desired decimal (if they exist) are displayed in the "translate then parse" and "parse then translate" dropdowns respectively
+	
