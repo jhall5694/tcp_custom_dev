@@ -1,0 +1,164 @@
+["Settings", \
+  ["My Dashboard", \
+  "Hours", \
+    ["Individual Hours", \
+    "Group Hours", \
+    "Mass Hours", \
+    "Covered Hours", \
+    "Period Export", \
+    "Time Sheets"
+    ], \
+  "Schedules", \
+    ["Employee", \
+    "Daily", \
+    "Weekly", \
+    "Recurring", \
+    "Template", \
+    "Global Scheduler", \
+    "Staffing Requirements", \
+    "Shift Assignments", \
+      ["Shift Roster", \
+      "Shift Calendar"
+      ], \
+    "Shift Board", \
+      ["Swaps", \
+      "Drops", \
+      "Opens"
+      ]
+    ], \
+  "Employee", \
+    ["Employee Profiles", \
+    "Employee Roles", \
+    "Dashboard Templates", \
+    "Global Modification", \
+    "Employee Messaging", \
+    "Pay Progressions", \
+    "Employee Recovery"
+    ], \
+  "Reports", \
+    ["Period Reports", \
+    "Scheduler Reports", \
+    "Analytics"
+    ], \
+  "Tools", \
+    ["Import", \
+    "Export", \
+    "Employee Status", \
+    "Requests", \
+      ["Request Manager", \
+      "Substitute Assignment Manager", \
+      "Leave Bid Manager", \
+      "FMLA Case Manager"
+      ], \
+    "Labor Analytics", \
+    "Labor Cost", \
+      ["Worked", \
+      "Schedule"
+      ], \
+    "Documents", \
+      ["Document Categories", \
+      "General Documents"
+      ], \
+    "QR Code Generator", \
+    "Other Tools", \
+      ["Attendance Monitor", \
+      "Audit Log", \
+      "Notifications", \
+      "Unresolved Punches", \
+      "Data Purge", \
+      "Calculator"
+      ]
+    ], \
+  "Configuration", \
+    ["Users", \
+      ["User Profiles", \
+      "User Roles", \
+      "Security Check", \
+      "Dashboard Templates", \
+      "User Delegation"
+      ], \
+    "Job Codes", \
+    "Cost Codes", \
+      ["Cost Code Simple Select", \
+      "Cost Code List", \
+      "Cost Code Tree", \
+      "Cost Code Groups", \
+      "Cost Code Elements", \
+      "Labor Standards"
+      ], \
+    "Work Profiles", \
+    "Accruals", \
+      ["Accrual Banks", \
+      "Accrual Cap Rules", \
+      "Accrual Reset Rules", \
+      "Accrual Rules", \
+      "Leave Groups", \
+      "Leave Calendars"
+      ], \
+    "Advanced Scheduler", \
+      ["AutoFill Profiles", \
+      "Master Shifts", \
+      "Master Schedules", \
+      "Shift Bids", \
+      "Sequences", \
+      "Swap Limits", \
+      "Position Templates", \
+      "Publisher"
+      ], \
+    "Templates", \
+      ["Contract Templates", \
+      "Request Templates", \
+      "Substitute Assignment Templates", \
+      "Budget Templates"
+      ], \
+    "Benefit Status", \
+      ["Measurement Periods", \
+      "Break Period Groups"
+      ], \
+    "FMLA", \
+      ["Reason Codes", \
+      "Questions"
+      ], \
+    "Geofencing", \
+      ["Geofences", \
+      "Geofence Groups"
+      ], \
+    "Other Configurations", \
+      ["Clock Configurations", \
+      "Shift Schedules", \
+      "Automatic Breaks", \
+      "Occurrence Rules", \
+      "Rotating Overtime Schedules", \
+      "Job Classes", \
+      "Qualifications", \
+      "Locations", \
+      "Hour Calculation Priority Groups"
+      ]
+    ], \
+  "Company", \
+    ["Close Week", \
+    "Company Defaults", \
+    "Company Setup", \
+    "Company Template", \
+    "Custom Fields", \
+    "Holidays", \
+    "Automated Tasks", \
+      ["Manage Automated Task", \
+      "Automated Import", \
+      "Automation Modules"
+      ], \
+    "Certificates", \
+    "Embeddable Widgets"
+    ], \
+  "On-Demand Pay", \
+    ["About Clair On-Demand Pay", \
+    "Settings"
+    ], \
+  "Quick Links", \
+    ["Employee Profiles", \
+    "Leave Groups", \
+    "Request Templates", \
+    "Clock Configurations"
+    ]
+  ]
+]
